@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+
+main{ background-image: url(https://images.unsplash.com/photo-1579954115563-e72bf1381629?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGljZSUyMGNyZWFtJTIwY3VwfGVufDB8fDB8fHww);
+    background-size:cover;
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+      height: 100vh; 
+      margin: 0;
+
+    }
+
+    pre{
+       /* font-family: "Sofia", sans-serif;*/
+        font-family: "Trirong", serif;
+        padding-top: 20vh;
+        font-size: 22px;
+       
+    }
+    header{
+        font-family: "Trirong", serif;
+    }
+    
+   .b{
+    margin-left: 100px;
+  border-color:rgb(216, 139, 37);
+  background-color: black;
+  color: bisque;
+ 
+
+   }
+   .b:hover{
+   background-color:  bisque;
+   color: black;
+   }
+   .custom-button-position {
+    position: absolute;
+    right: 20px; /* Adjust as needed */
+  }
+ 
+
+   /*flavors start*/
+
+   
+
+  
+   .ice-cream-image
+   {
+    
+    border: 1px solid rgb(9, 146, 57);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-shrink: 0;
+    max-width: 90%; 
+  height: auto; 
+  
+
+   }
+   .ice-cream-text{
+    max-width: 400px; 
+  text-align: center;
+    font-family:"Sofia", sans-serif ;
+   
+   }
+   
+   
+   
+  h2{
+    font-family:"Trirong", serif ;
+  }
+    
+  .g{
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    display: flex;
+    justify-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border: 2px solid  rgb(23, 23, 23);
+    border-radius: 10px;  
+    padding: 15px;
+    box-shadow: 0 4px 8px  rgba(40, 39, 34, 0.526);
+  }
+
+  
+
+  .card button {
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+     border: solid;
+     border-radius: 15px;
+     
+  }
+  
+
+ p{
+  font-family:"Sofia", sans-serif ;
+
+ }
+    
+ h3{
+  font-family:"Trirong", serif ;
+  padding-top: 5px;
+  font-size: 25px;
+ }
+
+ .i{
+  height: 150px;
+  width: 270px;
+  padding-top: 10px;
+ }
+ #para{
+  font-family:"Trirong", serif ;
+ }
+ .d1{
+  background-image: url('https://img.freepik.com/premium-photo/top-view-chocolate-ice-cream-table_23-2148513919.jpg?w=900');
+  background-size:cover;
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+      height: 50vh; 
+      margin: 0;
+ }
+ 
+ .col-12 .card.mb-4 {
+  border: 2px solid #000; /* Black border */
+  border-radius: 10px;    /* Rounded corners */
+  padding: 15px;          /* Space inside the border */
+  box-shadow: 0 4px 8px rgba(208, 32, 32, 0.2);
+}
